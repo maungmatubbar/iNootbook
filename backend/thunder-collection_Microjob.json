@@ -1,0 +1,1267 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Microjob",
+    "dateExported": "2023-03-10T07:48:31.766Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "118cbc18-c08e-4cd4-8141-8c3e17d8316d",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}login",
+            "url": "{{gst}}/api/user/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-02-11T18:39:18.757Z",
+            "modified": "2023-02-16T18:13:55.524Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "email",
+                        "value": "joibonlal@gmail.com"
+                    },
+                    {
+                        "name": "password",
+                        "value": "123456"
+                    }
+                ]
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "6|GsamhvyBRj50oWucwsvn2cCJAXlcr2PwnOILexRt"
+            },
+            "tests": []
+        },
+        {
+            "_id": "336d50d6-5872-40ef-8efb-a1f16e244376",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}register",
+            "url": "{{local}}user/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-02-11T18:39:18.758Z",
+            "modified": "2023-02-11T18:39:18.758Z",
+            "headers": [],
+            "body": {
+                "form": [
+                    {
+                        "name": "first_name",
+                        "value": "Arun"
+                    },
+                    {
+                        "name": "last_name",
+                        "value": "acharzo"
+                    },
+                    {
+                        "name": "email",
+                        "value": "arun123@gmail.com"
+                    },
+                    {
+                        "name": "address",
+                        "value": "Baridhara,Dhaka"
+                    },
+                    {
+                        "name": "password",
+                        "value": "123456"
+                    }
+                ],
+                "files": [],
+                "type": "formdata"
+            }
+        },
+        {
+            "_id": "17f567ff-e0f4-4a5e-904b-9cae353d37ed",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/send-otp",
+            "url": "{{local}}user/send-otp",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-02-11T18:39:18.759Z",
+            "modified": "2023-02-11T18:39:18.759Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "email",
+                    "value": "maungmatubbar@gmail.com",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "form": [
+                    {
+                        "name": "email",
+                        "value": "maungmatubbar@gmail.com"
+                    }
+                ],
+                "files": [],
+                "type": "formdata"
+            }
+        },
+        {
+            "_id": "f9f37c07-6f86-402d-9d78-c66dd07a5d5b",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/category/subcategory",
+            "url": "{{gst}}user/category/subcategory",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-02-11T18:39:18.760Z",
+            "modified": "2023-02-11T18:39:18.760Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "3|lj6weTwJyz5gdXhhvaFAlIHDNMN1KRuUI7A4kycP"
+            }
+        },
+        {
+            "_id": "5116c784-8b8c-49ed-b036-e8188de5412c",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/get-region/countries",
+            "url": "https://www.gstlimited.com/api/user/get-region/countries",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-02-11T18:39:18.761Z",
+            "modified": "2023-02-11T18:39:18.761Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "4|2iO7UTcYidjQIj7oHCrFxeElMP64qA4fnG8FwwZa"
+            }
+        },
+        {
+            "_id": "371f4b11-7ff3-4a77-a159-d337f4fddff7",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/get-extend-period",
+            "url": "{{local}}user/get-extend-period",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-02-11T18:39:18.762Z",
+            "modified": "2023-02-11T18:39:18.762Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "4|2iO7UTcYidjQIj7oHCrFxeElMP64qA4fnG8FwwZa"
+            }
+        },
+        {
+            "_id": "746ee46d-ce72-482e-ab1f-88156d53eb7c",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/job-info-store",
+            "url": "https://www.gstlimited.com/api/user/job-info-store",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2023-02-11T18:39:18.763Z",
+            "modified": "2023-02-11T18:39:18.763Z",
+            "headers": [],
+            "body": {
+                "form": [
+                    {
+                        "name": "region_id",
+                        "value": "4",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "countries_id",
+                        "value": "3,5,10,42,54"
+                    },
+                    {
+                        "name": "category_id",
+                        "value": "7"
+                    },
+                    {
+                        "name": "subcategory_id",
+                        "value": "5"
+                    },
+                    {
+                        "name": "job_title",
+                        "value": "this is test"
+                    },
+                    {
+                        "name": "complete_task",
+                        "value": "test complete task"
+                    },
+                    {
+                        "name": "proof_complete_task",
+                        "value": "test proof task"
+                    },
+                    {
+                        "name": "worker_need",
+                        "value": "5"
+                    },
+                    {
+                        "name": "worker_earn",
+                        "value": "8.50"
+                    },
+                    {
+                        "name": "require_screenshots",
+                        "value": "3"
+                    },
+                    {
+                        "name": "estimated_day",
+                        "value": "3"
+                    },
+                    {
+                        "name": "extend_period_id",
+                        "value": "4"
+                    },
+                    {
+                        "name": "estimated_job_cost",
+                        "value": "4.08"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "thumbnail_image",
+                        "value": "/C:/Users/Maung/Downloads/306790932_450644457084057_2780870792462707009_n.jpg"
+                    }
+                ],
+                "type": "formdata"
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "5|StdZpSavqO2KfSrrIbknT1BMWKWQyLPCJU3Lf0X2"
+            }
+        },
+        {
+            "_id": "dba6610c-88ad-4f70-b881-2836bb859bbb",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/get-job-info-list",
+            "url": "{{gst}}/api/user/get-job-info-list",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2023-02-11T18:39:18.764Z",
+            "modified": "2023-02-16T18:16:55.649Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "4351|Ar9gICWNSkWZoFWQE4D5tlYr7diS4NuJVoAEDEFU"
+            },
+            "tests": []
+        },
+        {
+            "_id": "01a50d0b-d01e-4346-b8c9-37a91ef7d35a",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/get-job-info-detail/1",
+            "url": "{{gst}}user/get-job-info-detail/1",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2023-02-11T18:39:18.765Z",
+            "modified": "2023-02-11T18:39:18.765Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "46|Hkx8UZaKd8Q3lvYiH7noBmUm0DoFvHrX8bMsCg5q"
+            }
+        },
+        {
+            "_id": "ce5ba83e-4361-4d72-8f73-b1026e99c2af",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/find-job/1/2",
+            "url": "{{local}}user/find-job/1/2",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2023-02-11T18:39:18.766Z",
+            "modified": "2023-02-11T18:39:18.766Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "4|2iO7UTcYidjQIj7oHCrFxeElMP64qA4fnG8FwwZa"
+            }
+        },
+        {
+            "_id": "ae277bc9-92e9-4f64-818f-2797b2201293",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/job-work-prove",
+            "url": "{{local}}user/job-work-prove",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2023-02-11T18:39:18.767Z",
+            "modified": "2023-02-11T18:39:18.767Z",
+            "headers": [],
+            "body": {
+                "form": [
+                    {
+                        "name": "job_info_id",
+                        "value": "2"
+                    },
+                    {
+                        "name": "prove",
+                        "value": "testing prove fgsdfsfasfyuujutiutiui"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "screenshot_image",
+                        "value": "/C:/Users/Maung/Downloads/Product/new product/184825251_4251440321574439_7200055969635428756_n.jpg"
+                    }
+                ],
+                "type": "formdata"
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "5|StdZpSavqO2KfSrrIbknT1BMWKWQyLPCJU3Lf0X2"
+            }
+        },
+        {
+            "_id": "dec1ddd3-4cd0-45e3-a26f-05cce4624110",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/my-job-list",
+            "url": "{{gst}}/api/user/my-job-list",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2023-02-11T18:39:18.768Z",
+            "modified": "2023-02-16T18:15:54.523Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "4|2iO7UTcYidjQIj7oHCrFxeElMP64qA4fnG8FwwZa"
+            },
+            "tests": []
+        },
+        {
+            "_id": "d4b03ed4-5980-46fc-900e-2db3cc41faaf",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/my-job-detail/1",
+            "url": "{{local}}user/my-job-detail/1",
+            "method": "GET",
+            "sortNum": 130000,
+            "created": "2023-02-11T18:39:18.769Z",
+            "modified": "2023-02-11T18:39:18.769Z",
+            "headers": [],
+            "body": {
+                "form": [],
+                "files": [],
+                "type": "formdata"
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "4|2iO7UTcYidjQIj7oHCrFxeElMP64qA4fnG8FwwZa"
+            }
+        },
+        {
+            "_id": "7bcfec43-6127-4836-80e3-8a73ab474f47",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/my-job-update/1",
+            "url": "{{local}}user/my-job-update/1",
+            "method": "POST",
+            "sortNum": 140000,
+            "created": "2023-02-11T18:39:18.770Z",
+            "modified": "2023-02-11T18:39:18.770Z",
+            "headers": [],
+            "body": {
+                "form": [
+                    {
+                        "name": "worker_need",
+                        "value": "4"
+                    },
+                    {
+                        "name": "estimated_day",
+                        "value": "5"
+                    }
+                ],
+                "files": [],
+                "type": "formdata"
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "4|2iO7UTcYidjQIj7oHCrFxeElMP64qA4fnG8FwwZa"
+            }
+        },
+        {
+            "_id": "c7317282-6664-42f4-9caf-d9790d47ef41",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/my-job-delete/1",
+            "url": "{{local}}user/my-job-delete/1",
+            "method": "GET",
+            "sortNum": 150000,
+            "created": "2023-02-11T18:39:18.771Z",
+            "modified": "2023-02-11T18:39:18.771Z",
+            "headers": []
+        },
+        {
+            "_id": "0b912349-7d95-47a3-81f2-6ca44fe33e82",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/work-prove/update/satisfaction/{id}",
+            "url": "{{local}}user/work-prove/update/satisfaction/3",
+            "method": "POST",
+            "sortNum": 160000,
+            "created": "2023-02-11T18:39:18.772Z",
+            "modified": "2023-02-11T18:39:18.772Z",
+            "headers": [],
+            "body": {
+                "form": [
+                    {
+                        "name": "job_info_id",
+                        "value": "2"
+                    },
+                    {
+                        "name": "rating",
+                        "value": "5"
+                    },
+                    {
+                        "name": "satisfaction",
+                        "value": "Satisfied"
+                    }
+                ],
+                "files": [],
+                "type": "formdata"
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "8|r3MSPRkIglI6qB6iyafvrXqms5zDBLu1Ek1llv2T"
+            }
+        },
+        {
+            "_id": "592e4d86-06b1-4965-98a8-46812e204f42",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/my-job-work-proves/2",
+            "url": "{{local}}user/my-job-work-proves/{job_info_id}",
+            "method": "GET",
+            "sortNum": 170000,
+            "created": "2023-02-11T18:39:18.773Z",
+            "modified": "2023-02-11T18:39:18.773Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "8|r3MSPRkIglI6qB6iyafvrXqms5zDBLu1Ek1llv2T"
+            }
+        },
+        {
+            "_id": "9c2b94d6-b3eb-4989-8d0a-d5b0a4c74ba8",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/my-job/work-prove/detail/{job_info_id}/{id}",
+            "url": "{{local}}user/my-job/work-prove/detail/{job_info_id}/{id}",
+            "method": "GET",
+            "sortNum": 180000,
+            "created": "2023-02-11T18:39:18.774Z",
+            "modified": "2023-02-11T18:39:18.774Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "8|r3MSPRkIglI6qB6iyafvrXqms5zDBLu1Ek1llv2T"
+            }
+        },
+        {
+            "_id": "0089b8ec-c37d-4a17-8087-7b0cc721251b",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/work-prove/update/satisfy/all/{job_info_id}",
+            "url": "{{local}}user/work-prove/update/satisfy/all/2",
+            "method": "POST",
+            "sortNum": 190000,
+            "created": "2023-02-11T18:39:18.775Z",
+            "modified": "2023-02-11T18:39:18.775Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "satisfaction",
+                    "value": "satisfied",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "form": [
+                    {
+                        "name": "satisfaction",
+                        "value": "Satisfied"
+                    }
+                ],
+                "files": [],
+                "type": "formdata"
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "8|r3MSPRkIglI6qB6iyafvrXqms5zDBLu1Ek1llv2T"
+            }
+        },
+        {
+            "_id": "a8cd625f-e032-4543-89fa-a93bfcd25e44",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/profile/update",
+            "url": "{{local}}user/profile/update",
+            "method": "POST",
+            "sortNum": 200000,
+            "created": "2023-02-11T18:39:18.776Z",
+            "modified": "2023-02-11T18:39:18.776Z",
+            "headers": [],
+            "body": {
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Humayun Kobir"
+                    },
+                    {
+                        "name": "password",
+                        "value": "123456"
+                    },
+                    {
+                        "name": "confirm_password",
+                        "value": "123456"
+                    },
+                    {
+                        "name": "address",
+                        "value": "Rajshahi"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "image",
+                        "value": "/C:/Users/Maung/Downloads/Product/Product image/casual.jpg"
+                    }
+                ],
+                "type": "formdata"
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "16|v7S5Gw6ztaJJmFHGmTK5C9noBa5Z7gUikBw7dnQp"
+            }
+        },
+        {
+            "_id": "5c974d89-8617-4112-bb82-a271fc072c1b",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/slider-images",
+            "url": "{{local}}user/slider-images",
+            "method": "GET",
+            "sortNum": 210000,
+            "created": "2023-02-11T18:39:18.777Z",
+            "modified": "2023-02-11T18:39:18.777Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "16|v7S5Gw6ztaJJmFHGmTK5C9noBa5Z7gUikBw7dnQp"
+            }
+        },
+        {
+            "_id": "36b6881c-3e29-4ede-b23c-7c8bd1a686bb",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/monthly/users",
+            "url": "{{local}}user/monthly/users",
+            "method": "GET",
+            "sortNum": 220000,
+            "created": "2023-02-11T18:39:18.778Z",
+            "modified": "2023-02-11T18:39:18.778Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "16|v7S5Gw6ztaJJmFHGmTK5C9noBa5Z7gUikBw7dnQp"
+            }
+        },
+        {
+            "_id": "a7278e02-44ec-47e7-89e9-c78d9c6e34b6",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/get-all-ads",
+            "url": "{{local}}user/get-all-ads",
+            "method": "GET",
+            "sortNum": 230000,
+            "created": "2023-02-11T18:39:18.779Z",
+            "modified": "2023-02-11T18:39:18.779Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "9|52HKKmZp5zWCfcHNJZu2cdDhkMtaof8MrBOmmXmi"
+            }
+        },
+        {
+            "_id": "d51adde7-9f5f-45b0-ac2c-2b884ae6652c",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/get-video",
+            "url": "{{local}}user/get-video",
+            "method": "GET",
+            "sortNum": 240000,
+            "created": "2023-02-11T18:39:18.780Z",
+            "modified": "2023-02-11T18:39:18.780Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "9|52HKKmZp5zWCfcHNJZu2cdDhkMtaof8MrBOmmXmi"
+            }
+        },
+        {
+            "_id": "18db6a04-5e24-46ff-a2e9-273de2a558bd",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/video/subscribe/",
+            "url": "{{local}}user/video/subscribe",
+            "method": "POST",
+            "sortNum": 250000,
+            "created": "2023-02-11T18:39:18.781Z",
+            "modified": "2023-02-11T18:39:18.781Z",
+            "headers": [],
+            "body": {
+                "form": [
+                    {
+                        "name": "video_id",
+                        "value": "4"
+                    }
+                ],
+                "files": [],
+                "type": "formdata"
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "9|52HKKmZp5zWCfcHNJZu2cdDhkMtaof8MrBOmmXmi"
+            }
+        },
+        {
+            "_id": "a07fbb45-0564-40f2-8804-98b8a3f0e69b",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/video/like",
+            "url": "{{local}}user/video/like",
+            "method": "POST",
+            "sortNum": 260000,
+            "created": "2023-02-11T18:39:18.782Z",
+            "modified": "2023-02-11T18:39:18.782Z",
+            "headers": [],
+            "body": {
+                "form": [
+                    {
+                        "name": "video_id",
+                        "value": "5"
+                    }
+                ],
+                "files": [],
+                "type": "formdata"
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "9|52HKKmZp5zWCfcHNJZu2cdDhkMtaof8MrBOmmXmi"
+            }
+        },
+        {
+            "_id": "79a438ad-42e6-43c0-a6e2-ecb550fdd93d",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/sliders",
+            "url": "{{local}}user/sliders",
+            "method": "GET",
+            "sortNum": 270000,
+            "created": "2023-02-11T18:39:18.783Z",
+            "modified": "2023-02-11T18:39:18.783Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "9|52HKKmZp5zWCfcHNJZu2cdDhkMtaof8MrBOmmXmi"
+            }
+        },
+        {
+            "_id": "c5369972-337b-4d4c-aa42-e7eff84867d0",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/my-task",
+            "url": "{{local}}user/my-task",
+            "method": "GET",
+            "sortNum": 280000,
+            "created": "2023-02-11T18:39:18.784Z",
+            "modified": "2023-02-11T18:39:18.784Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "9|52HKKmZp5zWCfcHNJZu2cdDhkMtaof8MrBOmmXmi"
+            }
+        },
+        {
+            "_id": "4e728c13-f18b-469d-b5ca-6c7bcff3b52b",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/my-accepted-task",
+            "url": "{{local}}user/my-accepted-task",
+            "method": "GET",
+            "sortNum": 290000,
+            "created": "2023-02-11T18:39:18.785Z",
+            "modified": "2023-02-11T18:39:18.785Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "9|52HKKmZp5zWCfcHNJZu2cdDhkMtaof8MrBOmmXmi"
+            }
+        },
+        {
+            "_id": "fe618ef6-18e6-417b-be36-e43d162d8549",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/get-all-ads",
+            "url": "{{local}}user/get-all-ads",
+            "method": "GET",
+            "sortNum": 300000,
+            "created": "2023-02-11T18:39:18.787Z",
+            "modified": "2023-02-11T18:39:18.787Z",
+            "headers": []
+        },
+        {
+            "_id": "a38b26f6-8471-4acc-8cec-4418f51092e3",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/buy/premium-plan",
+            "url": "{{local}}user/buy/premium-plan",
+            "method": "POST",
+            "sortNum": 310000,
+            "created": "2023-02-11T18:39:18.788Z",
+            "modified": "2023-02-11T18:39:18.788Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "address",
+                    "value": "",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "form": [
+                    {
+                        "name": "address",
+                        "value": "tewtettterterw"
+                    },
+                    {
+                        "name": "number",
+                        "value": "464567645"
+                    },
+                    {
+                        "name": "payment_method",
+                        "value": "nogod"
+                    },
+                    {
+                        "name": "payment_number",
+                        "value": "4544546456"
+                    },
+                    {
+                        "name": "transaction_id",
+                        "value": "34656443"
+                    },
+                    {
+                        "name": "amount",
+                        "value": "354"
+                    }
+                ],
+                "files": [],
+                "type": "formdata"
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "11|4E4abxuNphFpPkLHaqtGo8LlCrei5eDl7KRf4Lgt"
+            }
+        },
+        {
+            "_id": "898fd8c4-b085-4a9a-bd14-d08dec3823e4",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/beginner",
+            "url": "{{local}}user/beginner",
+            "method": "GET",
+            "sortNum": 320000,
+            "created": "2023-02-11T18:39:18.789Z",
+            "modified": "2023-02-11T18:39:18.789Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "11|4E4abxuNphFpPkLHaqtGo8LlCrei5eDl7KRf4Lgt"
+            }
+        },
+        {
+            "_id": "0f4b57a0-749d-4d9c-8d63-32f6153f8d3b",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/student",
+            "url": "{{local}}user/student",
+            "method": "GET",
+            "sortNum": 330000,
+            "created": "2023-02-11T18:39:18.790Z",
+            "modified": "2023-02-11T18:39:18.790Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "11|4E4abxuNphFpPkLHaqtGo8LlCrei5eDl7KRf4Lgt"
+            }
+        },
+        {
+            "_id": "ebc287b8-964d-4c5f-b309-c3b588a7a22d",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/bronze",
+            "url": "{{local}}user/bronze",
+            "method": "GET",
+            "sortNum": 340000,
+            "created": "2023-02-11T18:39:18.791Z",
+            "modified": "2023-02-11T18:39:18.791Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "11|4E4abxuNphFpPkLHaqtGo8LlCrei5eDl7KRf4Lgt"
+            }
+        },
+        {
+            "_id": "280cfb43-9263-41e7-8f23-e0fcb564f947",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/silver",
+            "url": "{{local}}user/silver",
+            "method": "GET",
+            "sortNum": 350000,
+            "created": "2023-02-11T18:39:18.792Z",
+            "modified": "2023-02-11T18:39:18.792Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "11|4E4abxuNphFpPkLHaqtGo8LlCrei5eDl7KRf4Lgt"
+            }
+        },
+        {
+            "_id": "0a740e4c-f8a6-46f9-9739-aefa0d3fe0cd",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/gold",
+            "url": "{{local}}user/gold",
+            "method": "GET",
+            "sortNum": 360000,
+            "created": "2023-02-11T18:39:18.793Z",
+            "modified": "2023-02-11T18:39:18.793Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "11|4E4abxuNphFpPkLHaqtGo8LlCrei5eDl7KRf4Lgt"
+            }
+        },
+        {
+            "_id": "2977f2f2-842e-44e8-8ab4-ed737865cf4f",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "{{local}}user/diamond",
+            "url": "{{local}}user/diamond",
+            "method": "GET",
+            "sortNum": 370000,
+            "created": "2023-02-11T18:39:18.794Z",
+            "modified": "2023-02-11T18:39:18.794Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "11|4E4abxuNphFpPkLHaqtGo8LlCrei5eDl7KRf4Lgt"
+            }
+        },
+        {
+            "_id": "6b4bff1b-630c-4b82-a8be-5b0a016d602b",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "Get User Profile",
+            "url": "{{gst}}/api/user/profile",
+            "method": "GET",
+            "sortNum": 380000,
+            "created": "2023-02-11T18:39:18.795Z",
+            "modified": "2023-02-11T18:39:18.795Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "2225|63n759i25cfLIETkFOlpSQwcf1iMsVejQARfrsY7"
+            }
+        },
+        {
+            "_id": "12ac8905-060b-422a-ae12-0d81c530c938",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "User image Upload",
+            "url": "{{local}}user/upload-profile-image",
+            "method": "POST",
+            "sortNum": 390000,
+            "created": "2023-02-11T18:39:18.796Z",
+            "modified": "2023-02-11T18:39:18.796Z",
+            "headers": [],
+            "body": {
+                "form": [],
+                "files": [
+                    {
+                        "name": "image",
+                        "value": "/C:/Users/Maung/Downloads/man.png"
+                    }
+                ],
+                "type": "formdata"
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "15|MywhrfjO79JcjNQYiZyGrwDCKFKkq0n4odgHO14z"
+            }
+        },
+        {
+            "_id": "2319adde-18f1-46c0-86a0-eadafae08630",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "Get Payment Methods",
+            "url": "{{local}}user/get-payment-methods",
+            "method": "GET",
+            "sortNum": 400000,
+            "created": "2023-02-11T18:39:18.797Z",
+            "modified": "2023-02-11T18:39:18.797Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "4|2iO7UTcYidjQIj7oHCrFxeElMP64qA4fnG8FwwZa"
+            }
+        },
+        {
+            "_id": "4dfedcd5-d82c-4476-9172-226e607a3c21",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "User Deposit ",
+            "url": "{{local}}user/deposit",
+            "method": "POST",
+            "sortNum": 410000,
+            "created": "2023-02-11T18:39:18.798Z",
+            "modified": "2023-02-11T18:39:18.798Z",
+            "headers": [],
+            "body": {
+                "form": [
+                    {
+                        "name": "sender_number",
+                        "value": "6666555555"
+                    },
+                    {
+                        "name": "transaction_id",
+                        "value": "sdfasdfs44555"
+                    },
+                    {
+                        "name": "amount",
+                        "value": "500"
+                    },
+                    {
+                        "name": "payment_method",
+                        "value": "Bkash"
+                    },
+                    {
+                        "name": "dollar_amount",
+                        "value": "5"
+                    }
+                ],
+                "files": [],
+                "type": "formdata"
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "4|2iO7UTcYidjQIj7oHCrFxeElMP64qA4fnG8FwwZa"
+            }
+        },
+        {
+            "_id": "7bc5f60c-0c5b-41fd-b216-68b108d17b38",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "Get Withdraw Payment Methods",
+            "url": "{{local}}user/withdraw/payment-methods",
+            "method": "GET",
+            "sortNum": 420000,
+            "created": "2023-02-11T18:39:18.799Z",
+            "modified": "2023-02-11T18:39:18.799Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "17|W0p0eU9hJw93AdEYPSM3MRd3oOE0t9S0dz36PLLu"
+            }
+        },
+        {
+            "_id": "53946e79-7434-45f7-a314-4d0f2c3d1a0c",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "Deposite list",
+            "url": "{{local}}user/deposit/list",
+            "method": "GET",
+            "sortNum": 430000,
+            "created": "2023-02-11T18:39:18.800Z",
+            "modified": "2023-02-11T18:39:18.800Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "4|2iO7UTcYidjQIj7oHCrFxeElMP64qA4fnG8FwwZa"
+            }
+        },
+        {
+            "_id": "f63dbea2-4a90-4e94-bab6-9f4eea6329d9",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "Withdraw",
+            "url": "{{local}}user/withdraw",
+            "method": "POST",
+            "sortNum": 440000,
+            "created": "2023-02-11T18:39:18.801Z",
+            "modified": "2023-02-11T18:39:18.801Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "method_id",
+                    "value": "",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "form": [
+                    {
+                        "name": "method_id",
+                        "value": "1"
+                    },
+                    {
+                        "name": "number",
+                        "value": "58757685"
+                    },
+                    {
+                        "name": "dollar",
+                        "value": "15"
+                    },
+                    {
+                        "name": "bd_amount",
+                        "value": "1500"
+                    },
+                    {
+                        "name": "admin_fee",
+                        "value": "300"
+                    },
+                    {
+                        "name": "address",
+                        "value": "fsfasddafdd"
+                    }
+                ],
+                "files": [],
+                "type": "formdata"
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "4|2iO7UTcYidjQIj7oHCrFxeElMP64qA4fnG8FwwZa"
+            }
+        },
+        {
+            "_id": "e07b3736-4838-4b86-9345-fcf3f252481c",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "Get Notifications",
+            "url": "{{local}}/api/user/get-notifications",
+            "method": "GET",
+            "sortNum": 450000,
+            "created": "2023-02-11T18:39:18.802Z",
+            "modified": "2023-02-11T18:39:18.802Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "1223|DkD6iUwR2KMTmXmxxDMcvp3aSEMbEvAbXNo2530D"
+            }
+        },
+        {
+            "_id": "dbbc2efd-46ec-4f6c-826f-e3cc1f1c05b6",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "http://localhost:8000/api/user/get-notifications?page=2",
+            "url": "{{local}}/api/user/get-notifications?page=5",
+            "method": "GET",
+            "sortNum": 460000,
+            "created": "2023-02-11T18:39:18.803Z",
+            "modified": "2023-02-11T18:39:18.803Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "page",
+                    "value": "5"
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "1223|DkD6iUwR2KMTmXmxxDMcvp3aSEMbEvAbXNo2530D"
+            }
+        },
+        {
+            "_id": "f1c2cf98-97be-4641-a6f5-e54178fd8940",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "get-pagination-notifications",
+            "url": "{{gst}}/api/user/get-notifications?page=3",
+            "method": "GET",
+            "sortNum": 470000,
+            "created": "2023-02-11T18:39:18.804Z",
+            "modified": "2023-02-11T18:39:18.804Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "page",
+                    "value": "3"
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "1565|gzawlokVEKauE4nyqt2DRgoKzWunIow8QveCqX68"
+            }
+        },
+        {
+            "_id": "75e30758-4ac3-44eb-a389-d0315e223d53",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "Notification Seen",
+            "url": "{{local}}/api/user/notification/seen",
+            "method": "POST",
+            "sortNum": 480000,
+            "created": "2023-02-11T18:39:18.805Z",
+            "modified": "2023-02-11T18:39:18.805Z",
+            "headers": [],
+            "body": {
+                "form": [
+                    {
+                        "name": "id",
+                        "value": "2",
+                        "isDisabled": true
+                    }
+                ],
+                "files": [],
+                "type": "formdata"
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "1223|DkD6iUwR2KMTmXmxxDMcvp3aSEMbEvAbXNo2530D"
+            }
+        },
+        {
+            "_id": "b47eee3e-80a9-4341-bd7a-2c53968ba405",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "Notification Unseen Count",
+            "url": "{{gst}}/api/user/notification/unseen/count",
+            "method": "GET",
+            "sortNum": 490000,
+            "created": "2023-02-11T18:39:18.806Z",
+            "modified": "2023-02-11T18:39:18.806Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "1565|gzawlokVEKauE4nyqt2DRgoKzWunIow8QveCqX68"
+            }
+        },
+        {
+            "_id": "6c3c6240-cbb9-4546-9183-85b4f5fb772f",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "Get Premium Plan List",
+            "url": "{{gst}}/api/user/plan/list",
+            "method": "GET",
+            "sortNum": 500000,
+            "created": "2023-02-11T18:39:18.807Z",
+            "modified": "2023-02-22T18:31:26.572Z",
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "4844|x4b1ysaJ0l9xVcR43x3vVtkIARp2Tj3xpvUXmj3L"
+            },
+            "tests": []
+        },
+        {
+            "_id": "3c5ede27-e67d-4590-b678-8aa1eba60431",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "Buy Premium Plan",
+            "url": "{{gst}}/api/user/buy/plan",
+            "method": "POST",
+            "sortNum": 510000,
+            "created": "2023-02-11T18:39:18.808Z",
+            "modified": "2023-02-22T18:26:09.897Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "premium_plan_id",
+                        "value": "13"
+                    }
+                ]
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "4844|x4b1ysaJ0l9xVcR43x3vVtkIARp2Tj3xpvUXmj3L"
+            },
+            "tests": []
+        },
+        {
+            "_id": "f5456d43-5772-4a79-830e-0319f2e5b3ee",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "Watch Premium Plan",
+            "url": "{{gst}}/api/user/watch/premium/plan",
+            "method": "POST",
+            "sortNum": 520000,
+            "created": "2023-02-11T18:39:18.809Z",
+            "modified": "2023-02-22T19:03:15.734Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "premium_plan_id",
+                        "value": "13"
+                    }
+                ]
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "4844|x4b1ysaJ0l9xVcR43x3vVtkIARp2Tj3xpvUXmj3L"
+            },
+            "tests": []
+        },
+        {
+            "_id": "937c624b-68b8-494b-8366-d2e8c098720a",
+            "colId": "1534169e-6c58-4203-a4a7-ddd20660c0c6",
+            "containerId": "",
+            "name": "Plan Task Sittings",
+            "url": "{{gst}}/api/user/task/sittings",
+            "method": "GET",
+            "sortNum": 530000,
+            "created": "2023-02-11T18:39:18.810Z",
+            "modified": "2023-02-11T18:39:18.810Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "2223|28cz6e7j6coomQMkZklMIeB3YRt67HvJsS1XJA8Z"
+            }
+        }
+    ]
+}
