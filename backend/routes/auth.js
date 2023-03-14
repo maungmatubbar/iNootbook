@@ -5,6 +5,8 @@ const User = require("../Models/User");
 const { body, validationResult } = require("express-validator");
 const { json } = require("express");
 const jwt = require("jsonwebtoken");
+const fetchuser = require("../middleware/fetchUser");
+
 const JWT_SECRET = "Mongisagoodboy";
 router.post(
   "/create",
@@ -87,4 +89,16 @@ router.post(
     } catch (error) {}
   }
 );
+
+router.post("/get-user", fetchuser, async (req, res) => {
+  try {
+    userId = req.user.id;
+    console.log(req);
+    const user = await User.findById(userId).select("-password");
+    res.status(200).send(user);
+  } catch (error) {
+    console.log(error);
+    res.status(400).send("Some error occured.");
+  }
+});
 module.exports = router;
